@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o -o Algorithm_Devlopement 
