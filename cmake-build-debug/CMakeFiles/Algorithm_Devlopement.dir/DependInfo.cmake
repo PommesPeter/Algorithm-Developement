@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pommespeter/workspace/C++/Algorithm-Devlopement/main.cpp" "/home/pommespeter/workspace/C++/Algorithm-Devlopement/cmake-build-debug/CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o"
+  "/home/pommespeter/workspace/C++/Algorithm-Devlopement/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp" "/home/pommespeter/workspace/C++/Algorithm-Devlopement/cmake-build-debug/CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

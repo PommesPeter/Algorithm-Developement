@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pommespeter/workspace/C++/Algorithm-Devlopement/main.cpp">
+		<Unit filename="/home/pommespeter/workspace/C++/Algorithm-Devlopement/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp">
 			<Option target="Algorithm_Devlopement"/>
 		</Unit>
 		<Unit filename="/home/pommespeter/workspace/C++/Algorithm-Devlopement/CMakeLists.txt">

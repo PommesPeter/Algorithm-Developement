@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o -o Algorithm_Devlopement 
+/usr/bin/c++ -g -rdynamic CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o -o Algorithm_Devlopement 

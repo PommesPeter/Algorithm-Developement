@@ -76,27 +76,27 @@ include CMakeFiles/Algorithm_Devlopement.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm_Devlopement.dir/flags.make
 
-CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o: CMakeFiles/Algorithm_Devlopement.dir/flags.make
-CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pommespeter/workspace/C++/Algorithm-Devlopement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o -c /home/pommespeter/workspace/C++/Algorithm-Devlopement/main.cpp
+CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o: CMakeFiles/Algorithm_Devlopement.dir/flags.make
+CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o: ../Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pommespeter/workspace/C++/Algorithm-Devlopement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o -c /home/pommespeter/workspace/C++/Algorithm-Devlopement/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp
 
-CMakeFiles/Algorithm_Devlopement.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm_Devlopement.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pommespeter/workspace/C++/Algorithm-Devlopement/main.cpp > CMakeFiles/Algorithm_Devlopement.dir/main.cpp.i
+CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pommespeter/workspace/C++/Algorithm-Devlopement/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp > CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i
 
-CMakeFiles/Algorithm_Devlopement.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm_Devlopement.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pommespeter/workspace/C++/Algorithm-Devlopement/main.cpp -o CMakeFiles/Algorithm_Devlopement.dir/main.cpp.s
+CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pommespeter/workspace/C++/Algorithm-Devlopement/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp -o CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s
 
 # Object files for target Algorithm_Devlopement
 Algorithm_Devlopement_OBJECTS = \
-"CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o"
+"CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o"
 
 # External object files for target Algorithm_Devlopement
 Algorithm_Devlopement_EXTERNAL_OBJECTS =
 
-Algorithm_Devlopement: CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o
+Algorithm_Devlopement: CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o
 Algorithm_Devlopement: CMakeFiles/Algorithm_Devlopement.dir/build.make
 Algorithm_Devlopement: CMakeFiles/Algorithm_Devlopement.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pommespeter/workspace/C++/Algorithm-Devlopement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm_Devlopement"

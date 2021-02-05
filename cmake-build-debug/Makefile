@@ -142,32 +142,32 @@ Algorithm_Devlopement/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/build
 .PHONY : Algorithm_Devlopement/fast
 
-main.o: main.cpp.o
+Algorithm-Basic-Tutorial/ch1/quicksort_template.o: Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o
 
-.PHONY : main.o
+.PHONY : Algorithm-Basic-Tutorial/ch1/quicksort_template.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/main.cpp.o
-.PHONY : main.cpp.o
+Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o
+.PHONY : Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.o
 
-main.i: main.cpp.i
+Algorithm-Basic-Tutorial/ch1/quicksort_template.i: Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i
 
-.PHONY : main.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/quicksort_template.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/main.cpp.i
-.PHONY : main.cpp.i
+Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.i
 
-main.s: main.cpp.s
+Algorithm-Basic-Tutorial/ch1/quicksort_template.s: Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s
 
-.PHONY : main.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/quicksort_template.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/main.cpp.s
-.PHONY : main.cpp.s
+Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_Devlopement.dir/build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm_Devlopement"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Algorithm-Basic-Tutorial/ch1/quicksort_template.o"
+	@echo "... Algorithm-Basic-Tutorial/ch1/quicksort_template.i"
+	@echo "... Algorithm-Basic-Tutorial/ch1/quicksort_template.s"
 .PHONY : help
 
 
