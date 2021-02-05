@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "Algorithm_Devlopement.exe"
   "Algorithm_Devlopement.exe.manifest"
   "Algorithm_Devlopement.pdb"
-  "CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/quicksort_template.cpp.obj"
+  "CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/mergesort_template.cpp.obj"
   "libAlgorithm_Devlopement.dll.a"
 )
 

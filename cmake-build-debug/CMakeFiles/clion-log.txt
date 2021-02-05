@@ -1,1 +1,4 @@
-CMakeLists.txt not found in E:\Workspace\C++\Algorithm-Devlopement Select CMakeLists.txt
+E:\JetBrain\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Workspace\C++\Algorithm-Developement
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Workspace/C++/Algorithm-Developement/cmake-build-debug
