@@ -12,3 +12,4 @@ This repo is for learning some algorithm with cplusplus, following the tutorial 
 
 
 
+## Learning Stragedy
