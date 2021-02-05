@@ -1,4 +1,1 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pommespeter/workspace/C++/Algorithm-Devlopement
--- Configuring done
--- Generating done
--- Build files have been written to: /home/pommespeter/workspace/C++/Algorithm-Devlopement/cmake-build-debug
+CMakeLists.txt not found in E:\Workspace\C++\Algorithm-Devlopement Select CMakeLists.txt
