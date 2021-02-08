@@ -22,7 +22,7 @@ vector<int> add(vector<int> &A, vector<int> &B) {
         t /= 10;
     }
 
-    if (t == 0) C.push_back(1);
+    if (t != 0) C.push_back(1);
     return C;
 }
 
@@ -31,12 +31,12 @@ int main() {
     string a, b;
     vector<int> A, B;
     cin >> a >> b;
-    for (auto i = a.size() - 1; i >= 0; i--) A.push_back(a[i] - '0');
-    for (auto i = b.size() - 1; i >= 0; i--) B.push_back(b[i] - '0');
+    for (int i = a.size() - 1; i >= 0; i--) A.emplace_back(a[i] - '0');
+    for (int i = b.size() - 1; i >= 0; i--) B.emplace_back(b[i] - '0');
 
-    auto C = add(A, B);
+    vector<int> C = add(A, B);
 
-    for (auto i = C.size() - 1; i >= 0; i--) printf("%d", C.at(i));
+    for (int i = C.size() - 1; i >= 0; i--) printf("%d", C.at(i));
 
     return 0;
 }
