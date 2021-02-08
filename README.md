@@ -12,7 +12,7 @@ This repo is for learning some algorithm with cplusplus, following the tutorial 
 
 
 
-## Learning Stragedy
+## Learning Strategy
 
 - 跟着课上内容去理解算法和代码实现的模板，为什么可以这样写，学算法的主要思想
 - 课后做两件事：理解代码模板和背（快速默写模板，理解算法的思想来背）背完然后默写，默写主要是用题目来默写。（不是一个字母一个字母地背）
