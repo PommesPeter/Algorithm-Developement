@@ -14,7 +14,7 @@ vector<int> add(vector<int> &A, vector<int> &B) {
 
     for (int i = 0; i < A.size() || i < B.size(); i++) {
         //每次算每一个位数都是三个数相加：A[i] + B[i] + 上一位的进位
-        //不存在的位就看乘0
+        //不存在的位就看成0
         //这里就是用t来存A[i] + B[i]的结果
         if (i < A.size())  t += A[i];
         if (i < B.size())  t += B[i]; //t存的是A[i] + B[i] + 上一位的余数
