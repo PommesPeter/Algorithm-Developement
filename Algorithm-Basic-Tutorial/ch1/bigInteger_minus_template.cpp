@@ -19,8 +19,8 @@ vector<int> sub(vector<int> &A, vector<int> &B) {
     vector<int> C;
     int t = 0;
     for (int i = 0; i < A.size(); i++) {
-        t = A.at(i) - t;
-        if (i < B.size())   t -= B.at(i);
+        t = A[i] - t;
+        if (i < B.size())   t -= B[i];
         C.push_back((t + 10) % 10);
         if (t < 0)  t = 1;
         else t = 0;
@@ -44,7 +44,7 @@ int main() {
     } else {
         auto C = sub(B, A);
         printf("-");
-        for (int i = C.size() - 1; i >= 0; i--);
+        for (int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
     }
     return 0;
 }
