@@ -8,6 +8,16 @@
 
 using namespace std;
 
+bool is_negative(char a) {
+    if (a == '-')   return true;
+    else return false;
+}
+
+bool is_negative(int a) {
+    if (a < 0)  return true;
+    else return false;
+}
+
 vector<int> mul(vector<int> &A, int &b) {
 
     vector<int> C;
@@ -25,13 +35,24 @@ vector<int> mul(vector<int> &A, int &b) {
 int main() {
 
     string a;
-    int b;
+    int b, _b;
     vector<int> A;
     cin >> a >> b;
-    for (int i = a.length() - 1; i >= 0; i--) A.push_back(a[i] - '0');
-    auto C = mul(A, b);
+    for (int i = a.length() - 1; i >= 0; i--) {
+        if (is_negative(a[i])) continue;
+        A.push_back(a[i] - '0');
+    }
+    if (is_negative(b)) _b = -b;
+    else _b = b;
 
-    for (int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
+    auto C = mul(A, _b);
+    if (is_negative(a[0]) || is_negative(b)) {
+        printf("-");
+        for (int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
+    } else {
+        for (int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
+    }
+
 
     return 0;
 }
