@@ -142,32 +142,32 @@ Algorithm_Devlopement/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/build
 .PHONY : Algorithm_Devlopement/fast
 
-Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.obj: Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.obj
+Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.obj: Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.obj
 
 # target to build an object file
-Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.obj
+Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.obj
 
-Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.i: Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.i
+Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.i: Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.i
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.i
 
 # target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.i
+Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.i
 
-Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.s: Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.s
+Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.s: Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.s
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.s
 
 # target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.s
+Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm_Devlopement
-	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.s
 .PHONY : help
 
 

@@ -86,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp">
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp">
 			<Option target="Algorithm_Devlopement"/>
 		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/CMakeLists.txt">

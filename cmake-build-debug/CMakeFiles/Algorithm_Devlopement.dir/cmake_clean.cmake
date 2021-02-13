@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "Algorithm_Devlopement.exe"
   "Algorithm_Devlopement.exe.manifest"
   "Algorithm_Devlopement.pdb"
-  "CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_minus_template.cpp.obj"
+  "CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_mul_template.cpp.obj"
   "libAlgorithm_Devlopement.dll.a"
 )
 
